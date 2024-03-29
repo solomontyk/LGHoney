@@ -1,0 +1,32 @@
+body {
+    background-color: honeydew;
+}
+
+h1 {
+    background-color: black; /* Set the background color of the header content to black */
+    padding: 60px; /* Add padding inside the header content to create space between text and border */
+    border: 3px solid white; /* Add a white border around the header content */
+    color: white; /* Set text color to white */
+    display: inline-block; 
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure that the body takes up at least the full height of the viewport */
+    margin: 0;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px 0; /* Add padding to the footer */
+}
+
+nav {
+    display: flex;
+    float: right;
+    justify-content: center;
+    margin-left: 100px;
+}
